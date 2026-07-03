@@ -1,0 +1,25 @@
+.home{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+}
+
+.home h2{
+
+    margin-bottom:30px;
+
+}
+
+.course-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+}

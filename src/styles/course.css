@@ -1,0 +1,103 @@
+.course-page{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:40px;
+
+}
+
+.back-btn{
+
+    display:inline-block;
+
+    margin-bottom:25px;
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}
+
+.book-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    margin-top:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.buttons button{
+
+    min-width:120px;
+
+    padding:12px 18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.buttons button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+.course-header{
+
+    margin-bottom:35px;
+
+}
+
+.course-header h1{
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
+}
+
+.course-header p{
+
+    color:#666;
+
+    font-size:18px;
+
+}
