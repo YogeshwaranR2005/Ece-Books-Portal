@@ -1,10 +1,10 @@
 .course-page{
 
-    max-width:900px;
+    max-width:1000px;
 
     margin:auto;
 
-    padding:40px;
+    padding:40px 25px;
 
 }
 
@@ -12,71 +12,19 @@
 
     display:inline-block;
 
-    margin-bottom:25px;
+    margin-bottom:30px;
 
     text-decoration:none;
 
     color:#2563eb;
 
-    font-weight:bold;
+    font-weight:600;
 
 }
 
-.book-card{
+.back-btn:hover{
 
-    background:white;
-
-    border-radius:18px;
-
-    padding:25px;
-
-    margin-top:25px;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-
-}
-
-.buttons{
-
-    display:flex;
-
-    gap:15px;
-
-}
-
-.buttons button{
-
-    min-width:120px;
-
-    padding:12px 18px;
-
-    border:none;
-
-    border-radius:10px;
-
-    background:#2563eb;
-
-    color:white;
-
-    font-size:15px;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-.buttons button:hover{
-
-    background:#1d4ed8;
-
-    transform:translateY(-2px);
+    color:#1d4ed8;
 
 }
 
@@ -92,20 +40,182 @@
 
     margin-bottom:10px;
 
+    color:#1f2937;
+
 }
 
 .course-header p{
 
-    color:#666;
-
     font-size:18px;
+
+    color:#6b7280;
 
 }
 
-@media (max-width:768px){
+.books-list{
 
-.course-title{
-    font-size:2rem;
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.book-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.book-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 14px 28px rgba(0,0,0,.12);
+
+}
+
+.book-info h2{
+
+    margin-bottom:8px;
+
+    font-size:22px;
+
+    color:#111827;
+
+}
+
+.book-info p{
+
+    color:#6b7280;
+
+    font-size:15px;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.action-btn{
+
+    text-decoration:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    min-width:120px;
+
+    text-align:center;
+
+}
+
+.action-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+.download{
+
+    background:#16a34a;
+
+}
+
+.download:hover{
+
+    background:#15803d;
+
+}
+
+@media(max-width:768px){
+
+.course-page{
+
+    padding:20px;
+
+}
+
+.course-header h1{
+
+    font-size:30px;
+
+}
+
+.course-header p{
+
+    font-size:16px;
+
+}
+
+.book-card{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+}
+
+.book-info{
+
+    width:100%;
+
+}
+
+.book-info h2{
+
+    font-size:20px;
+
+    line-height:1.4;
+
+}
+
+.buttons{
+
+    width:100%;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.action-btn{
+
+    min-width:120px;
+
 }
 
 }
