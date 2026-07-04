@@ -109,7 +109,7 @@ const courses = [
         {
             id: 1,
             title: "Fundamentals of Applied Electromagnetics (8th Edition) (Fawwaz T. Ulaby, Umberto Ravaioli)",
-            file: "Fundamentals of Applied Electromagnetics (8th Edition) (Fawwaz T. Ulaby, Umberto Ravaioli).pdf",
+            file: "books/Fundamentals of Applied Electromagnetics (8th Edition) (Fawwaz T. Ulaby, Umberto Ravaioli).pdf",
         },
 
         {
