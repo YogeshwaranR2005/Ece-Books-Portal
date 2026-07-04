@@ -101,3 +101,11 @@
     font-size:18px;
 
 }
+
+@media (max-width:768px){
+
+.course-title{
+    font-size:2rem;
+}
+
+}
