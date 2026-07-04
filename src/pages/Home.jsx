@@ -33,7 +33,7 @@ function Home() {
               />
             ))
           ) : (
-            <p>No course found.</p>
+            <p>No course found. </p>
           )}
 
         </div>
