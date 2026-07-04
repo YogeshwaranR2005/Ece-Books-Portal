@@ -17,7 +17,10 @@ function CourseCard({ course }) {
 
         </div>
 
-        <p>{course.books.length} Book Available</p>
+        <p>
+  {course.books.length}{" "}
+  {course.books.length === 1 ? "Book" : "Books"} Available
+</p>
 
       </div>
     </Link>
