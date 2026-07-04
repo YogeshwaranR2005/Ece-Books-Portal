@@ -87,7 +87,7 @@ const courses = [
         {
             id: 1,
             title: "Electronic Devices and Circuit Theory Pearson New International 11th Edition (Boylestad, Robert L., Nashelsky, Louis.)",
-            file: "Electronic Devices and Circuit Theory Pearson New International 11th Edition (Boylestad, Robert L., Nashelsky, Louis.).pdf",
+            file: "books/Electronic Devices and Circuit Theory Pearson New International 11th Edition (Boylestad, Robert L., Nashelsky, Louis.).pdf",
         },
 
         {
