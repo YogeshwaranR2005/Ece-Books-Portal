@@ -132,6 +132,62 @@ const courses = [
 
     ]
 },
+
+{
+    id: "network-analysis-and-synthesis",
+
+    name: "Network Analysis and Synthesis",
+
+    books: [
+
+        {
+            id: 1,
+            title: "Circuits and Network Analysis and Synthesis (Anant Sudhakar, Shyammohan S. Palli)",
+            file: "books/Circuits and Network Analysis and Synthesis (Anant Sudhakar, Shyammohan S. Palli).pdf",
+        },
+
+        {
+            id: 2,
+            title: "Introduction to Modern Network Synthesis (M. E. Van Valkenburg)",
+            file: "books/Introduction to Modern Network Synthesis (M. E. Van Valkenburg).pdf",
+        },
+
+        {
+            id: 3,
+            title: "Network Analysis (M.E. Van Valkenburg)",
+            file: "books/Network Analysis (M.E. Van Valkenburg).pdf",
+        },
+
+        {
+            id: 4,
+            title: "Circuit Theory and Networks Analysis and Synthesis (Ravish R. Singh)",
+            file: "books/Circuit Theory and Networks Analysis and Synthesis (Ravish R. Singh).pdf",
+        },
+
+    ]
+},
+
+{
+    id: "signals-and-systems",
+
+    name: "Signals and Systems",
+
+    books: [
+
+        {
+            id: 1,
+            title: "Principles of signal processing and linear system (Lathi, B. P)",
+            file: "books/Principles of signal processing and linear system (Lathi, B. P).pdf",
+        },
+
+        {
+            id: 2,
+            title: "Signals and Systems (Alan V. Oppenheim, Alan S. Willsky etc.)",
+            file: "books/Signals  Systems (Alan V. Oppenheim, Alan S. Willsky etc.).pdf",
+        },
+
+    ]
+},
 ];
 
 export default courses;
