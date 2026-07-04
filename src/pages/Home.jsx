@@ -9,9 +9,11 @@ function Home() {
 
   const [search, setSearch] = useState("");
 
-  const filteredCourses = courses.filter((course) =>
+ const filteredCourses = courses
+  .filter((course) =>
     course.name.toLowerCase().includes(search.toLowerCase())
-  );
+  )
+  .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <>
