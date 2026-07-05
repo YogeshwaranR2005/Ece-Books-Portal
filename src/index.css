@@ -7,3 +7,84 @@ body{
 *{
   box-sizing:border-box;
 }
+
+/* ==========================
+   DARK MODE
+========================== */
+
+body{
+
+    transition:background-color .3s,color .3s;
+
+}
+
+body.dark{
+
+    background:#111827;
+
+    color:#f9fafb;
+
+}
+
+body.dark .course-card,
+body.dark .book-card,
+body.dark .stat-card{
+
+    background:#1f2937;
+
+    color:white;
+
+}
+
+body.dark .course-header h1,
+body.dark .book-info h2,
+body.dark h2,
+body.dark h3{
+
+    color:white;
+
+}
+
+body.dark .course-header p,
+body.dark .book-info p,
+body.dark .stat-card p,
+body.dark footer{
+
+    color:#d1d5db;
+
+}
+
+body.dark .book-search,
+body.dark input{
+
+    background:#374151;
+
+    color:white;
+
+    border:1px solid #4b5563;
+
+}
+
+body.dark input::placeholder{
+
+    color:#cbd5e1;
+
+}
+
+body.dark .action-btn{
+
+    background:#3b82f6;
+
+}
+
+body.dark .action-btn:hover{
+
+    background:#2563eb;
+
+}
+
+body.dark .hero{
+
+    filter:brightness(.85);
+
+}
