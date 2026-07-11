@@ -188,6 +188,86 @@ const courses = [
 
     ]
 },
+
+{
+    id: "mixed-signal-circuit-design",
+
+    name: "Mixed Signal Circuit Design",
+
+    books: [
+
+        {
+            id: 1,
+            title: "Analog integrated circuit design (Carusone, Tony Chan, Johns, David etc.)",
+            file: "books/Analog integrated circuit design (Carusone, Tony Chan, Johns, David etc.).pdf",
+        },
+
+        {
+            id: 2,
+            title: "Analog Integrated Circuit Design (David Johns, Ken Martin)",
+            file: "books/Analog Integrated Circuit Design (David Johns, Ken Martin).pdf",
+        },
+
+         {
+            id: 3,
+            title: "Design of Analog CMOS Integrated Circuits (Behzad Razavi)",
+            file: "books/Design of Analog CMOS Integrated Circuits (Behzad Razavi).pdf",
+        },
+        
+
+    ]
+},
+
+{
+    id: "rf-circuit-design",
+
+    name: "Rf Circuit Design",
+
+    books: [
+
+        {
+            id: 1,
+            title: "Microwave Engineering (David M. Pozar)",
+            file: "books/Microwave Engineering (David M. Pozar).pdf",
+        },
+
+        {
+            id: 2,
+            title: "Practical RF Circuit Design for Modern Wireless Systems, Volume I Passive Circuits and Systems (Les Besser, Rowan Gilmore)",
+            file: "books/Practical RF Circuit Design for Modern Wireless Systems, Volume I Passive Circuits and Systems (Les Besser, Rowan Gilmore).pdf",
+        },
+
+    ]
+},
+
+{
+    id: "microcontroller-and-embedded-system",
+
+    name: "Mc and Embedded System",
+
+    books: [
+
+        {
+            id: 1,
+            title: "The 8051 Microcontroller and Embedded Systems (Muhammad Ali Mazidi, Janice G. Mazidi etc.)",
+            file: "books/The 8051 Microcontroller and Embedded Systems (Muhammad Ali Mazidi, Janice G. Mazidi etc.).pdf",
+        },
+
+        {
+            id: 2,
+            title: "ARM System Developer’s Guide Designing and Optimizing System Software Andrew ",
+            file: "books/ARM System Developer’s Guide Designing and Optimizing System Software Andrew.pdf",
+        },
+
+          {
+            id: 3,
+            title: "The 8051 Microcontroller. Architecture, Programming and Applications (Kenneth Ayala)",
+            file: "books/The 8051 Microcontroller. Architecture, Programming and Applications (Kenneth Ayala).pdf",
+        },
+
+    ]
+},
+
 ];
 
 export default courses;
